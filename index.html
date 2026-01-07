@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuisine du Monde Halal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PUB HAUT -->
+    <div class="ads ads-top"></div>
+
+    <!-- TITRE -->
+    <header>
+        <h1 data-i18n="title"></h1>
+    </header>
+
+    <!-- BOUTONS -->
+    <section class="filters" style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+
+        <!-- LANGUE -->
+        <select id="language">
+            <option value="fr" data-i18n="lang_fr"></option>
+            <option value="ar" data-i18n="lang_ar"></option>
+            <option value="en" data-i18n="lang_en"></option>
+            <option value="nl" data-i18n="lang_nl"></option>
+        </select>
+
+<!-- BOUTON BOUTIQUE -->
+<button id="shopButton" class="filter-btn" data-i18n="shop">
+    Boutique
+</button>
+
+<!-- BOUTIQUE : cachée par défaut -->
+<div id="shopContainer" class="hidden shop-inline">
+
+    <select id="shopCategory">
+       <option value="" data-i18n="shop_category"></option>
+
+        <option value="casseroles">Casseroles</option>
+        <option value="poeles">Poêles</option>
+        <option value="couteaux">Couteaux</option>
+        <option value="batterie">Batterie de cuisine</option>
+        <option value="ustensiles">Ustensiles de cuisine</option>
+        <option value="planches">Planches à découper</option>
+    </select>
+
+    <div id="shopLinks"></div>
+</div>
+
+
+
+
+        <!-- PAYS -->
+        <select id="country">
+            <option value="" selected data-i18n="country">Pays</option>
+            <option value="all">Tous</option>
+            <option value="belgique" data-i18n="belgique">Belgique</option>
+            <option value="france" data-i18n="france">France</option>
+            <option value="italie" data-i18n="italie">Italie</option>
+            <option value="maroc" data-i18n="maroc">Maroc</option>
+            <option value="liban" data-i18n="liban">Liban</option>
+            <option value="turquie" data-i18n="turquie">Turquie</option>
+            <option value="afrique" data-i18n="afrique">Afrique</option>
+            <option value="asie" data-i18n="asie">Asie</option>
+            <option value="europe" data-i18n="europe">Europe</option>
+            <option value="amerique" data-i18n="amerique">Amérique</option>
+        </select>
+
+        <!-- TYPE DE PLAT -->
+        <select id="type">
+            <option value="" data-i18n="type"></option>
+            <option value="entree" data-i18n="entree"></option>
+            <option value="plat" data-i18n="plat"></option>
+            <option value="dessert" data-i18n="dessert"></option>
+            
+        </select>
+
+        <!-- RECETTES -->
+        <select id="recipes" class="hidden">
+            <option value="" data-i18n="recipes"></option>
+        </select>
+
+    </section>
+      
+
+    <!-- CONTENU -->
+    <main id="content">
+
+        <!-- IMAGE D'ACCUEIL -->
+        <img src="images/accueil.jpg" alt="Cuisine halal" class="home-image" id="homeImage">
+
+        <!-- RECETTE -->
+        <div id="recipeContainer" class="recipe hidden">
+            <img id="recipeImage" src="" alt="" class="recipe-photo">
+
+            <div class="recipe-text">
+                <h2 id="recipeTitle"></h2>
+
+                <h3 data-i18n="equipment"></h3>
+                <ul id="recipeEquipment"></ul>
+
+                <h3 data-i18n="ingredients"></h3>
+                <ul id="recipeIngredients"></ul>
+
+                <h3 data-i18n="preparation"></h3>
+                <p id="recipePreparation"></p>
+            </div>
+        </div>
+ 
+     
+
+           
+        
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            <span data-i18n="partners"></span> :
+            <a href="#" target="_blank" rel="nofollow noopener">Amazon</a>
+        </p>
+
+        <p class="legal" data-i18n="legal"></p>
+
+        <!-- PUB BAS -->
+        <div class="ads"></div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
