@@ -83,6 +83,20 @@ main {
 
 .recipe-text h3 {
     margin-bottom: 5px;
+    .recipe-text h2 {
+    font-size: 24px;
+}
+
+.recipe-text h3 {
+    font-size: 20px;
+}
+
+.recipe-text p,
+.recipe-text li {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
 }
 
 /* FOOTER */
@@ -115,14 +129,23 @@ footer a {
         width: 100%;
         max-width: 300px;
     }
+
     .home-image {
         max-width: 100%;
     }
+
     .recipe-photo,
     .recipe-text {
         width: 100%;
     }
+
+    /* Lisibilité texte recettes sur mobile */
+    .recipe-text p,
+    .recipe-text li {
+        font-size: 19px;
+    }
 }
+
 
 /* Images adaptatives */
 img, video {
