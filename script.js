@@ -3069,7 +3069,7 @@ recipesData.plat.tanjia = {
 };
 recipesData.plat.keftaOeufs = {
     country: "maroc",
-    image: "imagest/kefa-oeufs.jpg",
+    image: "images/kefa-oeufs.jpg",
     fr: {
         title: "Kefta aux œufs",
         equipment: ["1 poêle", "1 bol", "1 cuillère en bois", "1 couteau", "1 planche à découper"],
@@ -4540,98 +4540,7 @@ recipesData.dessert.sellou = {
             "5. قدّمها في درجة حرارة الغرفة، غالباً مع الشاي بالنعناع."
     }
 };
-recipesData.dessert.fekkasAmandes = {
-    country: "maroc",
-    image: "images/fekkas-amandes.jpg",
-    fr: {
-        title: "Fekkas aux amandes – biscuits croquants",
-        equipment: ["1 bol", "1 four", "1 plaque de cuisson", "1 rouleau à pâtisserie"],
-        ingredients: [
-            "250 g farine",
-            "100 g sucre",
-            "2 œufs",
-            "100 g beurre fondu",
-            "100 g amandes entières ou hachées",
-            "1 cuillère à café levure chimique",
-            "1 pincée de sel",
-            "1 cuillère à café vanille"
-        ],
-        preparation:
-            "1. Préchauffer le four à 180°C.\n" +
-            "2. Mélanger farine, sucre, sel, levure et vanille.\n" +
-            "3. Ajouter œufs et beurre fondu pour obtenir une pâte homogène.\n" +
-            "4. Former des boudins de pâte, placer sur plaque.\n" +
-            "5. Cuire 20 minutes, sortir, couper en tranches.\n" +
-            "6. Remettre les tranches au four 10 min pour les rendre croustillantes.\n" +
-            "7. Laisser refroidir avant de servir."
-    },
-    en: {
-        title: "Fekkas with Almonds – Crunchy Biscuits",
-        equipment: ["1 bowl", "1 oven", "1 baking tray", "1 rolling pin"],
-        ingredients: [
-            "250 g flour",
-            "100 g sugar",
-            "2 eggs",
-            "100 g melted butter",
-            "100 g whole or chopped almonds",
-            "1 teaspoon baking powder",
-            "Pinch of salt",
-            "1 teaspoon vanilla"
-        ],
-        preparation:
-            "1. Preheat oven to 180°C.\n" +
-            "2. Mix flour, sugar, salt, baking powder, and vanilla.\n" +
-            "3. Add eggs and melted butter to form smooth dough.\n" +
-            "4. Shape dough into logs, place on tray.\n" +
-            "5. Bake 20 min, remove and cut into slices.\n" +
-            "6. Bake slices 10 min more to crisp.\n" +
-            "7. Let cool before serving."
-    },
-    nl: {
-        title: "Fekkas met Amandelen – Knapperige Koekjes",
-        equipment: ["1 kom", "1 oven", "1 bakplaat", "1 deegroller"],
-        ingredients: [
-            "250 g bloem",
-            "100 g suiker",
-            "2 eieren",
-            "100 g gesmolten boter",
-            "100 g hele of gehakte amandelen",
-            "1 theelepel bakpoeder",
-            "Snufje zout",
-            "1 theelepel vanille"
-        ],
-        preparation:
-            "1. Verwarm oven voor op 180°C.\n" +
-            "2. Meng bloem, suiker, zout, bakpoeder en vanille.\n" +
-            "3. Voeg eieren en gesmolten boter toe tot glad deeg.\n" +
-            "4. Vorm deeg tot rollen, leg op bakplaat.\n" +
-            "5. Bak 20 min, haal eruit en snijd in plakjes.\n" +
-            "6. Bak plakjes nog 10 min voor knapperigheid.\n" +
-            "7. Laat afkoelen voor het serveren."
-    },
-    ar: {
-        title: "فكّاس باللوز – بسكويت مقرمش",
-        equipment: ["وعاء", "فرن", "صينية فرن", "شوبك العجين"],
-        ingredients: [
-            "250 غ دقيق",
-            "100 غ سكر",
-            "2 بيض",
-            "100 غ زبدة مذابة",
-            "100 غ لوز كامل أو مفروم",
-            "1 ملعقة صغيرة بيكنج باودر",
-            "رشة ملح",
-            "1 ملعقة صغيرة فانيليا"
-        ],
-        preparation:
-            "1. سخّن الفرن إلى 180°م.\n" +
-            "2. اخلط الدقيق والسكر والملح والبيكنج باودر والفانيليا.\n" +
-            "3. أضف البيض والزبدة المذابة حتى تحصل على عجين متجانس.\n" +
-            "4. شكّل العجين على شكل أسطوانات وضعها على الصينية.\n" +
-            "5. اخبز 20 دقيقة، أخرجها وقطع إلى شرائح.\n" +
-            "6. أعد الخبز 10 دقائق لتصبح مقرمشة.\n" +
-            "7. اتركها تبرد قبل التقديم."
-    }
-};
+
 recipesData.dessert.makroutDattes = {
     country: "maroc",
     image: "images/makrout-dattes.jpg",
